@@ -1,0 +1,79 @@
+$size: 175px;
+
+.btn-group {
+	@extend .mb-0;
+}
+
+.btn-props {
+	background-color: white; 
+	@extend .border-dark; 
+	@extend .rounded-0;
+	height: $size;
+	width: $size;
+
+	@extend .text-center;
+	font-size: $size * 3 / 4 !important;
+	
+	@extend .justify-content-center;
+}
+
+/*
+	Button bordering
+*/
+#bp-0-0 {
+	@extend .border-left-0;
+	@extend .border-top-0;
+}
+
+#bp-0-1 {
+	@extend .border-top-0;
+}
+
+#bp-0-2 {
+	@extend .border-right-0;
+	@extend .border-top-0;
+}
+
+#bp-1-0 {
+	@extend .border-left-0;
+}
+
+#bp-1-1 {
+	
+}
+
+#bp-1-2 {
+	@extend .border-right-0;
+}
+
+#bp-2-0 {
+	@extend .border-left-0;
+	@extend .border-bottom-0;
+}
+
+#bp-2-1 {
+	@extend .border-bottom-0;
+}
+
+#bp-2-2 {
+	@extend .border-right-0;
+	@extend .border-bottom-0;
+}
+
+#tttBoard {
+	margin: auto;
+	background-color: #fff;
+	width: $size * 3;
+
+}
+
+#winner {
+	
+	display: 'none';
+}
+#again {
+	margin: auto;
+	display: none;
+}
+
+@import "node_modules/bootstrap/scss/bootstrap";
